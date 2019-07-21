@@ -1,0 +1,30 @@
+{
+  "name": "svelte-webpack-template",
+  "version": "1.0.0",
+  "description": "Use this template to jump start your svelte projects.",
+  "scripts": {
+    "build": "cross-env NODE_ENV=development webpack",
+    "build:prod": "cross-env NODE_ENV=production webpack",
+    "dev": "npm run build && webpack-dev-server --content-base dist",
+    "start": "npm run dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VeprUA/svelte-webpack-template/issues"
+  },
+  "homepage": "https://github.com/VeprUA/svelte-webpack-template#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.3",
+    "cross-env": "^5.2.0",
+    "css-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "serve": "^11.0.2",
+    "style-loader": "^0.23.1",
+    "svelte": "^3.6.4",
+    "svelte-loader": "^2.13.4",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
