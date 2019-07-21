@@ -7,7 +7,7 @@ Use this template to jump start your svelte projects.
 
 Download
 ```sh
-npx degit VeprUA/svelte-webpack-template
+npx degit VeprUA/svelte-webpack-template your-project-name
 ```
 
 or 
